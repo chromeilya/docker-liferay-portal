@@ -1,5 +1,5 @@
 FROM mdelapenya/jdk:8-openjdk
-MAINTAINER Manuel de la Peña <manuel.delapenya@liferay.com>
+MAINTAINER Ilya Khramiankou <ilya.khramiankou@gmail.com>
 
 RUN apt-get update \
   && apt-get install -y curl tree \
